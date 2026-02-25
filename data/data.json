@@ -1,0 +1,15 @@
+{
+  "web_log": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "expect_text": "超级员工"
+    }
+  ],
+  "web_day": [
+    {
+      "values": "2",
+      "values1": "11"
+    }
+  ]
+}

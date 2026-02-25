@@ -1,0 +1,8 @@
+2026-02-25 21:23:15,085 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin,
+2026-02-25 21:23:15,086 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-25 21:23:17,340 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123,
+2026-02-25 21:23:17,341 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-25 21:23:22,536 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="登入系统"]')
+2026-02-25 21:23:22,537 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-25 21:23:24,705 INFO [base_web.py(base_text:36)] - 正在调用获取文本：('xpath', '//cite[text()="超级员工"]')
+2026-02-25 21:23:24,707 INFO [base_web.py(base_find:19)] - 正在调用查找元素：

@@ -1,0 +1,68 @@
+2026-02-21 22:48:01,054 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('css selector', '[placeholder="用户名"]')，正在输入内容：test1
+2026-02-21 22:48:01,055 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:10:13,648 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：test1
+2026-02-21 23:10:13,649 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:14:54,400 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-02-21 23:14:54,403 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:14:56,784 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-02-21 23:14:56,785 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:14:58,961 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="验证码"]')，正在输入内容：13
+2026-02-21 23:14:58,962 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:15:01,104 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '[value="登录"]')
+2026-02-21 23:15:01,105 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:15:31,273 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-02-21 23:15:31,274 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:15:33,501 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-02-21 23:15:33,503 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:15:35,754 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="验证码"]')，正在输入内容：13
+2026-02-21 23:15:35,754 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:15:37,901 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '[value="登录"]')
+2026-02-21 23:15:37,902 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:23:42,559 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-02-21 23:23:42,560 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:23:44,771 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-02-21 23:23:44,772 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:23:46,942 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '[value="登录"]')
+2026-02-21 23:23:46,944 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:24:04,151 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-02-21 23:24:04,151 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:24:06,400 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-02-21 23:24:06,402 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:24:08,603 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '[value="登录"]')
+2026-02-21 23:24:08,603 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:24:39,793 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-02-21 23:24:39,794 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:24:42,004 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-02-21 23:24:42,006 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:24:47,209 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '[value="登录"]')
+2026-02-21 23:24:47,210 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:27:14,810 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-02-21 23:27:14,812 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:27:17,040 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-02-21 23:27:17,042 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:27:22,229 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '[text()="登入系统"]')
+2026-02-21 23:27:22,229 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:28:08,479 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-02-21 23:28:08,481 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:28:10,704 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-02-21 23:28:10,704 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:28:15,884 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="登入系统"]')
+2026-02-21 23:28:15,884 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:28:18,689 INFO [base_web.py(base_text:36)] - 正在调用获取文本：('xpath', '//*[text()=" 工 作 台"]')
+2026-02-21 23:28:18,690 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:31:39,475 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-02-21 23:31:39,476 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:31:41,730 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-02-21 23:31:41,733 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:31:46,922 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="登入系统"]')
+2026-02-21 23:31:46,923 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:31:49,899 INFO [base_web.py(base_text:36)] - 正在调用获取文本：('xpath', '//*[text()=" 工 作 台"]')
+2026-02-21 23:31:49,899 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:35:59,067 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-02-21 23:35:59,067 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:36:01,304 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-02-21 23:36:01,307 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:36:06,480 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="登入系统"]')
+2026-02-21 23:36:06,481 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-02-21 23:36:09,225 INFO [base_web.py(base_text:36)] - 正在调用获取文本：('xpath', '//cite[text()="超级员工"]')
+2026-02-21 23:36:09,226 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
