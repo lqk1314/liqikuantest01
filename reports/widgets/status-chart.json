@@ -1,1 +1,1 @@
-[]
+[{"uid":"888883dd07badd18","name":"test_day_off[web_day-2-11]","time":{"start":1772375573817,"stop":1772375627961,"duration":54144},"status":"passed","severity":"normal"},{"uid":"d987d186c52c2a7b","name":"test_chuchai","time":{"start":1772375627975,"stop":1772375650384,"duration":22409},"status":"broken","severity":"normal"}]

@@ -37,5 +37,4 @@ class PageWebLogin(BaseApp):
     def page_web_login(self, name, pwd):
         self.__page_web_username(name)
         self.__page_web_password(pwd)
-        # self.__page_web_img_verif(code)
         self.__page_web_login_btu()

@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","54144","test_day_off[web_day-2-11]","testcases.test_0_请假","2026-03-01","passed","2026-03-01","TestWebLogin","test_web","",""
+"","22409","test_chuchai","testcases.test_1_出差","2026-03-01","broken","2026-03-01","TestChuchai","test_chuchai","",""

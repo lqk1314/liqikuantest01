@@ -1,1 +1,1 @@
-{"total":0,"items":[]}
+{"total":2,"items":[{"uid":"da9d8df30046a173343521c8829b9a71","name":"testcases.test_1_出差","statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1}},{"uid":"06a7ad402ff18d77edf253c6329dd5e4","name":"testcases.test_0_请假","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}

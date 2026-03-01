@@ -1,8 +1,471 @@
-2026-02-25 21:23:15,085 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin,
-2026-02-25 21:23:15,086 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
-2026-02-25 21:23:17,340 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123,
-2026-02-25 21:23:17,341 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
-2026-02-25 21:23:22,536 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="登入系统"]')
-2026-02-25 21:23:22,537 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
-2026-02-25 21:23:24,705 INFO [base_web.py(base_text:36)] - 正在调用获取文本：('xpath', '//cite[text()="超级员工"]')
-2026-02-25 21:23:24,707 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:03:04,556 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:08:37,475 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:14:04,509 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:16:56,381 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-03-01 21:16:56,381 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:16:58,607 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-03-01 21:16:58,609 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:17:03,783 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="登入系统"]')
+2026-03-01 21:17:03,784 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:17:05,965 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:17:12,266 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="审批申请"]')
+2026-03-01 21:17:12,266 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:17:14,530 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:17:16,583 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//div[text()="请假"]')
+2026-03-01 21:17:16,584 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:17:18,908 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:17:21,961 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择开始时间"]')
+2026-03-01 21:17:21,961 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:17:25,421 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 21:17:25,422 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:17:30,850 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择结束时间"]')
+2026-03-01 21:17:30,850 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:17:34,306 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 21:17:34,307 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:17:36,711 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假天数"]')，正在输入内容：2
+2026-03-01 21:17:36,711 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:17:41,874 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="types"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 21:17:41,874 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:17:44,321 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="调休假"]')
+2026-03-01 21:17:44,322 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:17:46,739 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假事由"]')，正在输入内容：11
+2026-03-01 21:17:46,739 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:17:48,875 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="flow_id"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 21:17:48,875 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:17:53,330 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="请假审批"]')
+2026-03-01 21:17:53,331 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:17:55,826 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@lay-reqtext="请选择审批人"]')
+2026-03-01 21:17:55,827 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:17:58,287 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="人事部"]')
+2026-03-01 21:17:58,287 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:18:00,688 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="小黑"]')
+2026-03-01 21:18:00,688 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:18:01,102 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:18:01,140 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:18:43,051 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-03-01 21:18:43,052 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:18:45,280 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-03-01 21:18:45,281 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:18:50,572 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="登入系统"]')
+2026-03-01 21:18:50,573 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:18:53,407 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:18:57,320 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="审批申请"]')
+2026-03-01 21:18:57,321 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:18:59,582 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:19:01,642 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//div[text()="请假"]')
+2026-03-01 21:19:01,643 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:19:03,979 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:19:07,040 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择开始时间"]')
+2026-03-01 21:19:07,040 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:19:10,586 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 21:19:10,587 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:19:16,106 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择结束时间"]')
+2026-03-01 21:19:16,109 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:19:19,661 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 21:19:19,662 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:19:22,131 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假天数"]')，正在输入内容：2
+2026-03-01 21:19:22,131 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:19:27,306 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="types"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 21:19:27,306 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:19:29,753 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="调休假"]')
+2026-03-01 21:19:29,754 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:19:32,189 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假事由"]')，正在输入内容：11
+2026-03-01 21:19:32,190 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:19:34,328 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="flow_id"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 21:19:34,329 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:19:38,816 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="请假审批"]')
+2026-03-01 21:19:38,817 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:19:41,292 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@lay-reqtext="请选择审批人"]')
+2026-03-01 21:19:41,293 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:19:43,754 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="人事部"]')
+2026-03-01 21:19:43,754 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:19:46,210 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="小黑"]')
+2026-03-01 21:19:46,211 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:19:46,649 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:19:46,685 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:26:13,722 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-03-01 21:26:13,723 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:26:15,933 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-03-01 21:26:15,935 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:26:21,117 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="登入系统"]')
+2026-03-01 21:26:21,117 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:26:24,112 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:26:36,951 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="审批申请"]')
+2026-03-01 21:26:36,952 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:26:39,226 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:26:41,286 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//div[text()="请假"]')
+2026-03-01 21:26:41,287 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:26:43,606 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:26:46,665 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择开始时间"]')
+2026-03-01 21:26:46,666 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:26:50,125 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 21:26:50,126 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:26:55,589 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择结束时间"]')
+2026-03-01 21:26:55,589 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:26:59,054 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 21:26:59,055 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:27:01,468 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假天数"]')，正在输入内容：2
+2026-03-01 21:27:01,469 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:27:06,631 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="types"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 21:27:06,632 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:27:09,058 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="调休假"]')
+2026-03-01 21:27:09,058 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:27:11,496 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假事由"]')，正在输入内容：11
+2026-03-01 21:27:11,497 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:27:13,759 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="flow_id"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 21:27:13,759 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:27:18,228 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="请假审批"]')
+2026-03-01 21:27:18,228 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:27:20,659 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@lay-reqtext="请选择审批人"]')
+2026-03-01 21:27:20,660 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:27:23,118 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="人事部"]')
+2026-03-01 21:27:23,119 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:27:25,534 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="小黑"]')
+2026-03-01 21:27:25,534 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:27:25,994 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:27:26,027 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:45:14,411 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-03-01 21:45:14,415 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:45:17,172 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-03-01 21:45:17,174 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:45:22,351 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="登入系统"]')
+2026-03-01 21:45:22,352 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:45:25,260 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:45:29,206 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="审批申请"]')
+2026-03-01 21:45:29,207 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:45:31,479 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:45:33,539 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//div[text()="请假"]')
+2026-03-01 21:45:33,540 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:45:35,862 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:45:38,921 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择开始时间"]')
+2026-03-01 21:45:38,922 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:45:42,391 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 21:45:42,391 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:45:47,819 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择结束时间"]')
+2026-03-01 21:45:47,820 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:45:51,276 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 21:45:51,277 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:45:53,707 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假天数"]')，正在输入内容：2
+2026-03-01 21:45:53,707 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:45:58,869 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="types"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 21:45:58,869 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:46:01,302 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="调休假"]')
+2026-03-01 21:46:01,303 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:46:03,731 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假事由"]')，正在输入内容：11
+2026-03-01 21:46:03,732 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:46:05,871 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="flow_id"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 21:46:05,871 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:46:10,324 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="请假审批"]')
+2026-03-01 21:46:10,325 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:46:12,847 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@lay-reqtext="请选择审批人"]')
+2026-03-01 21:46:12,847 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:46:15,297 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="人事部"]')
+2026-03-01 21:46:15,297 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:46:17,708 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="小黑"]')
+2026-03-01 21:46:17,708 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:46:18,150 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:46:18,187 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:49:41,083 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-03-01 21:49:41,085 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:49:43,358 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-03-01 21:49:43,360 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:49:48,534 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="登入系统"]')
+2026-03-01 21:49:48,534 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:49:51,342 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:49:54,453 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="审批申请"]')
+2026-03-01 21:49:54,453 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:49:56,729 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:49:58,787 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//div[text()="请假"]')
+2026-03-01 21:49:58,788 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:50:01,112 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:50:04,173 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择开始时间"]')
+2026-03-01 21:50:04,174 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:50:07,634 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 21:50:07,635 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:50:13,071 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择结束时间"]')
+2026-03-01 21:50:13,071 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:50:16,529 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 21:50:16,529 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:50:18,950 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假天数"]')，正在输入内容：2
+2026-03-01 21:50:18,951 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:50:24,115 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="types"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 21:50:24,115 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:50:26,557 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="调休假"]')
+2026-03-01 21:50:26,557 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:50:28,987 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假事由"]')，正在输入内容：11
+2026-03-01 21:50:28,989 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:50:31,162 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="flow_id"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 21:50:31,163 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:50:35,625 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="请假审批"]')
+2026-03-01 21:50:35,625 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:50:38,085 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@lay-reqtext="请选择审批人"]')
+2026-03-01 21:50:38,086 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:50:40,587 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="人事部"]')
+2026-03-01 21:50:40,588 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:50:43,019 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="小黑"]')
+2026-03-01 21:50:43,019 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:50:43,437 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:50:43,476 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:51:31,015 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-03-01 21:51:31,021 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:51:33,379 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-03-01 21:51:33,379 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:51:38,549 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="登入系统"]')
+2026-03-01 21:51:38,549 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:51:41,583 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:51:44,540 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="审批申请"]')
+2026-03-01 21:51:44,541 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:51:46,812 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:51:48,865 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//div[text()="请假"]')
+2026-03-01 21:51:48,866 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:51:51,205 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:51:54,255 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择开始时间"]')
+2026-03-01 21:51:54,256 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:51:57,718 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 21:51:57,718 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:52:03,144 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择结束时间"]')
+2026-03-01 21:52:03,144 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:52:06,603 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 21:52:06,603 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:52:09,018 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假天数"]')，正在输入内容：2
+2026-03-01 21:52:09,019 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:52:14,183 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="types"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 21:52:14,184 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:52:16,632 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="调休假"]')
+2026-03-01 21:52:16,632 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:52:19,059 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假事由"]')，正在输入内容：11
+2026-03-01 21:52:19,060 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:52:21,195 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="flow_id"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 21:52:21,195 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:52:25,640 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="请假审批"]')
+2026-03-01 21:52:25,642 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:52:28,125 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@lay-reqtext="请选择审批人"]')
+2026-03-01 21:52:28,126 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:52:30,594 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="人事部"]')
+2026-03-01 21:52:30,595 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:52:33,027 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="小黑"]')
+2026-03-01 21:52:33,028 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:52:33,431 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 21:52:33,466 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:07:56,052 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-03-01 22:07:56,053 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:07:58,315 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-03-01 22:07:58,316 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:08:03,515 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="登入系统"]')
+2026-03-01 22:08:03,516 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:08:06,368 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:08:09,777 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="审批申请"]')
+2026-03-01 22:08:09,777 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:08:12,054 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:08:14,115 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//div[text()="出差"]')
+2026-03-01 22:08:14,116 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:08:21,283 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-03-01 22:08:21,284 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:08:23,520 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-03-01 22:08:23,520 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:08:28,697 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="登入系统"]')
+2026-03-01 22:08:28,698 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:08:28,701 ERROR [conftest.py(web_login:26)] - 错误原因：Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: MicrosoftEdge=145.0.3800.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7fdaf6835
+	0x7ff7fdaf6894
+	0x7ff7fde3ad2a
+	0x7ff7fd83c5a2
+	0x7ff7fd857e32
+	0x7ff7fd8b8f3b
+	0x7ff7fd8ceabf
+	0x7ff7fd889a1c
+	0x7ff7fd888c76
+	0x7ff7fd889843
+	0x7ff7fd950564
+	0x7ff7fd94ca03
+	0x7ff7fd95d0c3
+	0x7ff7fdb10f18
+	0x7ff7fdb197f6
+	0x7ff7fdafde74
+	0x7ff7fdafdfb9
+	0x7ff7fdaebdf2
+	0x7ffa5e72259d
+	0x7ffa5fa8af78
+
+2026-03-01 22:12:58,152 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-03-01 22:12:58,153 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:00,373 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-03-01 22:13:00,376 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:05,554 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="登入系统"]')
+2026-03-01 22:13:05,554 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:08,344 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:11,188 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="审批申请"]')
+2026-03-01 22:13:11,188 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:13,463 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:15,523 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//div[text()="请假"]')
+2026-03-01 22:13:15,523 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:17,841 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:20,905 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择开始时间"]')
+2026-03-01 22:13:20,906 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:24,352 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 22:13:24,352 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:29,800 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择结束时间"]')
+2026-03-01 22:13:29,801 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:33,250 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 22:13:33,251 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:35,671 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假天数"]')，正在输入内容：2
+2026-03-01 22:13:35,672 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:40,841 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="types"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 22:13:40,841 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:43,280 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="调休假"]')
+2026-03-01 22:13:43,280 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:45,716 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假事由"]')，正在输入内容：11
+2026-03-01 22:13:45,716 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:47,868 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="flow_id"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 22:13:47,869 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:52,331 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="请假审批"]')
+2026-03-01 22:13:52,331 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:54,772 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@lay-reqtext="请选择审批人"]')
+2026-03-01 22:13:54,772 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:57,237 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="人事部"]')
+2026-03-01 22:13:57,238 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:13:59,690 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="小黑"]')
+2026-03-01 22:13:59,691 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:14:00,128 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:14:00,165 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:24:41,962 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-03-01 22:24:41,964 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:24:44,191 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-03-01 22:24:44,192 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:24:49,385 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="登入系统"]')
+2026-03-01 22:24:49,386 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:24:52,214 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:24:55,405 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="审批申请"]')
+2026-03-01 22:24:55,406 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:24:57,680 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:24:59,742 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//div[text()="请假"]')
+2026-03-01 22:24:59,743 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:25:02,073 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:25:05,141 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择开始时间"]')
+2026-03-01 22:25:05,141 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:25:08,597 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 22:25:08,597 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:25:14,029 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择结束时间"]')
+2026-03-01 22:25:14,030 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:25:17,475 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 22:25:17,476 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:25:19,891 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假天数"]')，正在输入内容：2
+2026-03-01 22:25:19,891 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:25:25,053 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="types"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 22:25:25,055 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:25:27,513 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="调休假"]')
+2026-03-01 22:25:27,513 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:25:29,949 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假事由"]')，正在输入内容：11
+2026-03-01 22:25:29,950 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:25:32,082 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="flow_id"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 22:25:32,083 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:25:36,540 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="请假审批"]')
+2026-03-01 22:25:36,540 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:25:38,957 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@lay-reqtext="请选择审批人"]')
+2026-03-01 22:25:38,958 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:25:41,480 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="人事部"]')
+2026-03-01 22:25:41,480 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:25:43,900 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="小黑"]')
+2026-03-01 22:25:43,900 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:25:44,322 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:25:44,358 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:27:39,677 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-03-01 22:27:39,678 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:27:41,903 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-03-01 22:27:41,905 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:27:47,095 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="登入系统"]')
+2026-03-01 22:27:47,096 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:27:49,262 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:27:55,642 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="审批申请"]')
+2026-03-01 22:27:55,642 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:27:57,909 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:27:59,970 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//div[text()="请假"]')
+2026-03-01 22:27:59,971 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:28:02,308 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:28:05,363 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择开始时间"]')
+2026-03-01 22:28:05,364 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:28:08,836 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 22:28:08,836 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:28:14,271 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择结束时间"]')
+2026-03-01 22:28:14,271 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:28:17,738 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 22:28:17,738 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:28:20,160 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假天数"]')，正在输入内容：2
+2026-03-01 22:28:20,160 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:28:25,319 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="types"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 22:28:25,319 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:28:27,749 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="调休假"]')
+2026-03-01 22:28:27,750 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:28:30,180 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假事由"]')，正在输入内容：11
+2026-03-01 22:28:30,181 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:28:32,309 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="flow_id"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 22:28:32,309 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:28:36,753 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="请假审批"]')
+2026-03-01 22:28:36,753 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:28:39,287 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@lay-reqtext="请选择审批人"]')
+2026-03-01 22:28:39,288 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:28:41,871 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="人事部"]')
+2026-03-01 22:28:41,872 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:28:44,287 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="小黑"]')
+2026-03-01 22:28:44,288 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:28:44,695 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:28:44,729 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:28:46,782 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:31:20,140 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-03-01 22:31:20,141 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:31:22,369 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-03-01 22:31:22,371 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:31:27,550 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="登入系统"]')
+2026-03-01 22:31:27,551 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:31:31,173 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:31:33,717 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="审批申请"]')
+2026-03-01 22:31:33,717 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:31:35,996 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:31:38,045 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//div[text()="出差"]')
+2026-03-01 22:31:38,046 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:32:45,071 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="username"]')，正在输入内容：admin
+2026-03-01 22:32:45,072 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:32:47,637 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@name="password"]')，正在输入内容：admin123
+2026-03-01 22:32:47,638 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:32:52,866 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="登入系统"]')
+2026-03-01 22:32:52,866 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:32:55,826 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:32:58,950 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="审批申请"]')
+2026-03-01 22:32:58,951 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:01,213 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:03,269 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//div[text()="请假"]')
+2026-03-01 22:33:03,270 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:05,578 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:08,627 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择开始时间"]')
+2026-03-01 22:33:08,628 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:12,089 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 22:33:12,089 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:17,521 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@placeholder="请选择结束时间"]')
+2026-03-01 22:33:17,521 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:20,978 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="确定"]')
+2026-03-01 22:33:20,978 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:23,395 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假天数"]')，正在输入内容：2
+2026-03-01 22:33:23,396 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:28,557 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="types"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 22:33:28,558 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:30,984 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="调休假"]')
+2026-03-01 22:33:30,985 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:33,420 INFO [base_web.py(base_input:24)] - 正在调用输入查找元素：('xpath', '//*[@placeholder="请输入请假事由"]')，正在输入内容：11
+2026-03-01 22:33:33,420 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:35,558 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//select[@name="flow_id"]/following-sibling::div[@class="layui-form-select layui-unselect"]/div[@class="layui-select-title"]/input[@placeholder="--请选择--"]')
+2026-03-01 22:33:35,559 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:40,011 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//dd[text()="请假审批"]')
+2026-03-01 22:33:40,012 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:42,444 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[@lay-reqtext="请选择审批人"]')
+2026-03-01 22:33:42,444 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:45,018 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="人事部"]')
+2026-03-01 22:33:45,019 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:47,440 INFO [base_web.py(base_click:31)] - 正在调用点击方法：('xpath', '//*[text()="小黑"]')
+2026-03-01 22:33:47,441 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:47,885 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:47,923 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
+2026-03-01 22:33:49,985 INFO [base_web.py(base_find:19)] - 正在调用查找元素：
