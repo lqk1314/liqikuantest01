@@ -6,9 +6,11 @@ from page.page_chuchai import PageWebchuchai
 
 class TestChuchai:
     def test_chuchai(self,web_login,pages):
-        try:
-            pages['chuchai'].page_chuchai()
+        if 1==1:
+            try:
+                pages['chuchai'].page_chuchai()
 
-        except Exception as e:
-            print(f'错误原因：{e}')
+            except Exception as e:
+                print(f'错误原因：{e}')
             raise
+

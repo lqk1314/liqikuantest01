@@ -16,7 +16,7 @@ class BaseApp:
 
     #定位元素，显式等待
     def base_find(self, loc):
-        log.info("正在调用查找元素：".format(loc))
+        log.info("正在调用查找元素1234：".format(loc))
         return WebDriverWait(self.driver,20,0.5).until(lambda x:x.find_element(*loc))
 
     #输入方法
